@@ -1,0 +1,27 @@
+{
+  "name": "poker",
+  "version": "0.0.0",
+  "description": "A poker Project for Supinfo University",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "gulp": "~3.6.0",
+    "gulp-coffee": "~1.4.1",
+    "gulp-compass": "~1.1.8",
+    "gulp-livereload": "~1.2.0",
+    "gulp-useref": "~0.3.0"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "mongoose": "~3.8.8",
+    "express": "~3.5.1",
+    "jade": "~1.3.0",
+    "assert": "~1.1.1",
+    "crypto": "0.0.3"
+  }
+}
